@@ -1,41 +1,72 @@
-baseurl = "https://ecohen13.github.io/"
-relativeurls = true
-languageCode = "en-us"
-title = "A Hugo website"
-theme = "hugo-lithium-theme"
-googleAnalytics = ""
-disqusShortname = ""
-ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
-publishDir = "../ecohen13.github.io"
+baseurl             = "/"
+languageCode        = "en-us"
+title               = "Introduction"
+theme = "hugo-theme-introduction"
+enforce_ssl         = "your-url.com"
+builddrafts         = false
+canonifyurls        = true
+contentdir          = "content"
+layoutdir           = "layouts"
+publishdir          = "public"
+# disqusshortname   = "xxx" # Enable Disqus for comments
+# googleAnalytics   = "xxx"
 
 [permalinks]
-    post = "/:year/:month/:day/:slug/"
-
-[[menu.main]]
-    name = "About"
-    url = "/about/"
-[[menu.main]]
-    name = "GitHub"
-    url = "https://github.com/rstudio/blogdown"
-[[menu.main]]
-    name = "Twitter"
-    url = "https://twitter.com/rstudio"
+fixed = ":title/"
+blog  = "blog/:slug/"
 
 [params]
-    description = "A website built through Hugo and blogdown."
+author        = "A Clever Author" # Full name shows on blog post pages
+firstname     = "awesome" # First name shows in introduction on main page
+tagline       = "I'm a theme for Hugo." # Appears after the introduction
+introheight   = "large" # Input either 'medium' or 'large' or 'fullheight'
+avatar        = "img/profile.png" # Path to image in static folder eg. img/avatar.png 
+email         = "youremail@email.com" # Shows in contact section, or leave blank to omit
+localtime     = true # Show your current local time in contact section
+timezone      = "America/Los_Angeles" # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+dateform      = "Jan 2, 2006"
+dateformfull  = "Mon Jan 2 2006 15:04:05 EST"
+cachebuster   = true # Add the current unix timestamp in query string for cache busting css assets
+description   = "Website Description"
+faviconfile   = "img/fav.ico"
+highlightjs   = true # Syntax highlighting
+lang          = "en"
+footertext    = "" # Text to show in footer (overrides default text)
 
-    # options for highlight.js (version, additional languages, and theme)
-    highlightjsVersion = "9.11.0"
-    highlightjsCDN = "//cdn.bootcss.com"
-    highlightjsLang = ["r", "yaml"]
-    highlightjsTheme = "github"
+fadein          = true # Turn on/off the fade-in effect
 
-    MathJaxCDN = "//cdn.bootcss.com"
-    MathJaxVersion = "2.7.1"
+showblog        = true # Show Blog section on home page
+showallposts    = false # Set 'true' to list all posts on home page, or set 'false' to link to separate blog list page
+showlatest      = true # Show latest blog post summary
+sharebuttons    = true # On post pages, show share this social buttons
 
-    [params.logo]
-    url = "logo.png"
-    width = 50
-    height = 50
-    alt = "Logo"
+showprojects    = true # Show Projects section on home page
 
+# This is your projects section. Three images of the same dimensions will look the nicest. If images are omitted, text links will be shown.
+project1link    = "#"
+project1img     = "img/project1.jpg"
+project1title   = "Project 1"
+
+project2link    = "#"
+project2img     = "img/project2.jpg"
+project2title   = "Project 2"
+
+project3link    = "#"
+project3img     = "img/project3.jpg"
+project3title   = "Project 3"
+
+
+# Social icons appear in introduction and contact section. Add as many more as you like.
+# Find icon names here: http://fontawesome.io/cheatsheet/
+
+[[params.social]]
+url = "https://twitter.com/"
+icon = "twitter"
+
+[[params.social]]
+url = "https://facebook.com/"
+icon = "facebook"
+
+[[params.social]]
+url = "https://linkedin.com/"
+icon = "linkedin"
