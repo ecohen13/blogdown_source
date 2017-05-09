@@ -1,4 +1,4 @@
-baseurl = "https://ecohen13.github.io/"
+baseurl = "/"
 relativeurls = true
 languageCode = "en-us"
 title = "A Hugo website"
@@ -6,7 +6,6 @@ theme = "hugo-lithium-theme"
 googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
-publishDir = "../ecohen13.github.io"
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
