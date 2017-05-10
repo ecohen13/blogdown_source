@@ -42,31 +42,31 @@ sharebuttons    = false # On post pages, show share this social buttons
 
 showprojects    = false # Show Projects section on home page
 
-# This is your projects section. Three images of the same dimensions will look the nicest. If images are omitted, text links will be shown.
-project1link    = "#"
-project1img     = "img/project1.jpg"
-project1title   = "Project 1"
-
-project2link    = "#"
-project2img     = "img/project2.jpg"
-project2title   = "Project 2"
-
-project3link    = "#"
-project3img     = "img/project3.jpg"
-project3title   = "Project 3"
-
-
-# Social icons appear in introduction and contact section. Add as many more as you like.
-# Find icon names here: http://fontawesome.io/cheatsheet/
-
-[[params.social]]
-url = "https://twitter.com/"
-icon = "twitter"
-
-[[params.social]]
-url = "https://facebook.com/"
-icon = "facebook"
-
-[[params.social]]
-url = "https://linkedin.com/"
-icon = "linkedin"
+# # This is your projects section. Three images of the same dimensions will look the nicest. If images are omitted, text links will be shown.
+# project1link    = "#"
+# project1img     = "img/project1.jpg"
+# project1title   = "Project 1"
+#
+# project2link    = "#"
+# project2img     = "img/project2.jpg"
+# project2title   = "Project 2"
+#
+# project3link    = "#"
+# project3img     = "img/project3.jpg"
+# project3title   = "Project 3"
+#
+#
+# # Social icons appear in introduction and contact section. Add as many more as you like.
+# # Find icon names here: http://fontawesome.io/cheatsheet/
+#
+# [[params.social]]
+# url = "https://twitter.com/"
+# icon = "twitter"
+#
+# [[params.social]]
+# url = "https://facebook.com/"
+# icon = "facebook"
+#
+# [[params.social]]
+# url = "https://linkedin.com/"
+# icon = "linkedin"
