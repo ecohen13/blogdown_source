@@ -1,7 +1,7 @@
 baseurl             = "https://http://ecohen13.github.io/"
 languageCode        = "en-us"
 title               = "Introduction"
-theme = "hugo-theme-introduction"
+theme = "hugo-lithium-theme"
 enforce_ssl         = "your-url.com"
 builddrafts         = false
 canonifyurls        = true
