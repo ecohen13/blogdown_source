@@ -1,9 +1,24 @@
+<<<<<<< HEAD
 title = "Elisha Cohen"
 baseURL = "https://ecohen13.github.io/"
 languageCode = "en-us"
 theme = "gohugo-theme-ananke"
 #themesDir = "../blogdown_source/themes/"
 publishDir = "../ecohen13.github.io"
+=======
+baseurl             = "https://ecohen13.github.io/"
+languageCode        = "en-us"
+title               = "Introduction"
+theme = "hugo-theme-introduction"
+enforce_ssl         = "your-url.com"
+builddrafts         = false
+canonifyurls        = true
+contentdir          = "content"
+layoutdir           = "layouts"
+publishdir          = "../ecohen13.github.io"
+# disqusshortname   = "xxx" # Enable Disqus for comments
+# googleAnalytics   = "xxx"
+>>>>>>> parent of d2f0591... ananke theme
 
 MetaDataFormat = "yaml"
 DefaultContentLanguage = "en"
